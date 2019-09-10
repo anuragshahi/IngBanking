@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AppController {
 
-	@RequestMapping("/bank")
+	@RequestMapping("/")
 	public String print() {
 		return "index.html";
+	}
+	
+	@RequestMapping("/transactions")
+	public String transaction() {
+		return "trasaction.html";
 	}
 }
