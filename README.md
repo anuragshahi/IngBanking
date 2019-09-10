@@ -2,6 +2,40 @@
 A simple end to end banking application using latest technology stack
 
 
+# Design Document
+
+* Tables 
+
+Customer 
+  Cust_id number 10
+  FirstName varchar 40
+  Last name varchar 40
+  Address varchar 100
+Account
+  Acnt_no number 10
+  Cust_id number 10
+  Acnt_code_id number 10
+AcntCodes
+  Code_id number 10
+  Code_val varchar 40
+Login
+  userid number 10
+  password varchar 10
+  customer_id number
+  email varchar50
+Transaction
+  Txn_id number 10
+  acnt_id 10
+  crdr_flag (credit 1 debit 2)
+  txn_amt number(10,2)
+
+# Tasks
+ * CRUD customer , account , login, acntcodes
+ *  Only  Create, read on Transaction
+ * Devops - create ci_cd pipe lines, automate tasks
+ * Build gui and js validations 
+
+
 # POC 1 BUILDING A MAVEN PIPELINE PROJECT IN LOCAL
 *  Created a Spring Boot Project with github integration in STS.
 *  Created a Maven job in jenkins.
