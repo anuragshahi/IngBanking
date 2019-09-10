@@ -6,14 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class TechBankingApplication extends SpringBootServletInitializer {
+public class TechBankingApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(TechBankingApplication.class, args);
 	}
 	
-	  @Override
-	    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+	@Override
+	  protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 	        return builder.sources(TechBankingApplication.class);
 	    }
 
