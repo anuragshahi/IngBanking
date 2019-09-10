@@ -1,6 +1,10 @@
 # Tech Banking
 A simple end to end banking application using latest technology stack
 
+# Technology Stack
+* Frontend : Angular, HTML5 , CSS3 , Bootstrap4
+* Backend : Spring cloud, Spring Transaction, Spring Security, Spring Batch,Postman, Swagger, Kafka
+* Devops : Jenkins, Docker, AWS, Git, Maven , Ansible, Nagois
 
 # Design Document
 
