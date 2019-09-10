@@ -18,12 +18,12 @@ A simple end to end banking application using latest technology stack
 3) AcntCodes
   * Code_id number 10
   * Code_val varchar 40
-4) # Login
+4) Login
   * userid number 10
   * password varchar 10
   * customer_id number
   * email varchar50
-5) # Transaction
+5) Transaction
   * Txn_id number 10
   * acnt_id 10
   * crdr_flag (credit 1 debit 2)
