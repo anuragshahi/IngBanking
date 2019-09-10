@@ -11,8 +11,8 @@ public class AppController {
 		return "index.html";
 	}
 	
-	@RequestMapping("/transactions")
+	@RequestMapping("/txn")
 	public String transaction() {
-		return "trasaction.html";
+		return "txn.html";
 	}
 }
