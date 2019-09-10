@@ -40,13 +40,13 @@ A simple end to end banking application using latest technology stack
  * Build gui and js validations 
 
 
-# Devops POC: BUILDING A MAVEN PIPELINE PROJECT IN LOCAL
+# Devops POC: Building a Maven Jenkins job in local
 *  Created a Spring Boot Project with github integration in STS.
 *  Created a Maven job in jenkins.
 *  Added a webhook with ngrok to connect github and local jenkins.
 * Configured deployment and tested project on tomcat after packaging.
 
-# Devops POC: BUILDING A MAVEN PIPELINE PROJECT ON AWS
+# Devops POC: Building a Maven Jenkins job on AWS
 * Deployed Jenkins and tomcat on AWS EC2 instance.
 * Added webhook with exposed ec2 jenkins link 
 * Tested Jenkins running on http://18.217.104.198:8080/
