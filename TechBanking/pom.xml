@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.tech</groupId>
 	<artifactId>TechBanking</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TechBanking</name>
 	<description>Demo project for Spring Boot</description>
