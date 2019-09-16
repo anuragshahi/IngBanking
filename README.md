@@ -39,6 +39,12 @@ A simple end to end banking application using latest technology stack
  * Devops - create ci_cd pipe lines, automate tasks
  * Build gui and js validations 
 
+# Config Data
+#jenkins password
+b59859233cb94cddbc6a14f219b0feb9
+#mysql password
+@dminmysql
+
 
 # Devops POC: Building a Maven Jenkins job in local
 *  Created a Spring Boot Project with github integration in STS.
