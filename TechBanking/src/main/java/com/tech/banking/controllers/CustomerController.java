@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tech.banking.dao.CustomerDao;
 import com.tech.banking.models.Customer;
 
-@Controller
-@RequestMapping(value={"/user"})
+@RestController
+@RequestMapping(value={"user"})
 public class CustomerController {
 
 	@Autowired
