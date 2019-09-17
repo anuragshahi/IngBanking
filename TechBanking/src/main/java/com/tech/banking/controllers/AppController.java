@@ -1,4 +1,4 @@
-package com.tech.banking;
+package com.tech.banking.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
