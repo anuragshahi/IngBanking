@@ -16,7 +16,7 @@ import com.tech.banking.dao.CustomerDao;
 import com.tech.banking.models.Customer;
 
 @RestController
-@RequestMapping(value={"user"})
+@RequestMapping(value="/user")
 public class CustomerController {
 
 	@Autowired
