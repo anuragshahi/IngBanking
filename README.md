@@ -14,7 +14,9 @@ A simple end to end banking application using latest technology stack
   * Cust_id number 10
   * FirstName varchar 40
   * Last name varchar 40
+  * Email varchar 40
   * Address varchar 100
+  * phone number 10
 2) Account
   * Acnt_no number 10
   * Cust_id number 10
